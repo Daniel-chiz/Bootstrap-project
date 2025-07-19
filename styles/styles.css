@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3d4d6a;
+    
+}
+
+
+.sec2{
+    background-color: #f5f6f8;
+}
+
+
+
+/* media queries */
+@media (max-width: 768px) {
+    .section1 {
+        margin-top: 4rem ;
+      
+
+       
+    
+}
+
+/* 
+@media (min-width: 768px) {
+    .menu-label, .menu-checkbox, .menu {
+        display: none; / Hide the mobile menu for larger screens /
+    }
+    .desktop-nav {
+        display: block; / Show desktop navigation /
+    }
+}
+/ Mobile Navigation Styles /
+@media (min-width: 0px) and (max-width: 1024px) {
+    .desktop-nav {
+        display: none; / Hide desktop nav on mobile /
+    }
+    / Mobile menu button (Hamburger) /
+    .menu-label {
+        font-size: 35px;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    / Hidden checkbox that controls the menu /
+    .menu-checkbox {
+        display: none;
+    }
+    / Menu container (hidden by default) /
+    .menu {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        padding: 20px 10px;
+        z-index: 999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    / List style inside the menu /
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+    }
+      /* Menu item styling
+    .menu ul li {
+        margin: 15px 0;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        display: block;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding: 10px 0;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease;
+        color: #000000;
+    }
+    /* When the checkbox is checked, show the menu  */
+    /* .menu-checkbox:checked ~ .menu {
+        display: block; */
+    }
+/* }  */ */
