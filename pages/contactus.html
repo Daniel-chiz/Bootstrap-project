@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-     <header class="d-flex justify-content-between align-items-center px-5 py-3
-      ">
-        <h4 class="first-h1 text-white text-center"> CONTACT US</h4>
+     <header class="d-flex justify-content-between align-items-center px-2 py-2  position-sticky top-0 w-100">
+        <h4 class="first-h1 text-white text-center w-50"> CONTACT US</h4>
 
-        <nav class="">
+        <nav class=" navbar navbar-expand-md-column ">
             <ul class="navi d-flex justify-content-center align-items-center m-0 gap-5 list-unstyled
-             mx-5 px-3 py-2">
+             mx-md-1 flex-wrap px-4 py-3 w-100">
                 <li> <a class="text-decoration-none text-white" href="../index.html "> Home</a></li>
                 <li> <a class="text-decoration-none text-white" href="./aboutus.html"> About Us</a></li>
                 <li> <a class="text-decoration-none text-white" href="./products.html"> Products</a></li>
@@ -23,25 +22,54 @@
             </ul>
         </nav>
     </header>
-    <h1 class="text-center">Contact Us</h1>
-    <p class="text-center">
-        If you have any questions or inquiries, feel free to reach out to us.
+
+
+    <h1 class="text-center py-2 bg-light w-100 border rounded">Contact Us 
+    <p class="text-center fs-4 text-secondary">
+        If you have any questions or inquiries, feel free to reach out to us through the form below.
     </p>
+    </h1>
+
+    <!-- Section one  -->
+  <section class="container py-5 d-flex justify-content-center align-items-center flex-column bg-light border rounded-5 mb-5 mb-5">
+    <div class="row d-flex justify-content-center align-items-center flex-column w-100">
+      <div class="col-md-6 mb-5">
+        <h2>Contact Us</h2>
+        <p> kindly fill out the form and we'll get back to you shortly.</p>
+        <form>
+          <div class="mb-5">
+            <label for="name" class="form-label"> Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-5">
+            <label for="email" class="form-label"> Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-5">
+            <label for="message" class="form-label"> Kindly drop a message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
 
 
 
-    <section class=""> 
-        <div class="container">
-            <div class="row"> 
-                <div class="mx-md-5 d-flex justify-content-center align-items-center ">
-                    <p >
-                        Reach out to us here ⬇️
-                    </p>
-                    <a href="https://zcrlj9.csb.app" class="text-decoration-none"> click here to fill form</a>
-
-                </div>
-            </div>
-        </div>
+      <div class="col-md-6 mt-5">
+        <h4 class="fs-3">Reach Us @:</h4>
+        <ul class="list-unstyled">
+          <li><b><i class="bi bi-geo-alt"></i> Address:</b> Ademola Adetokunbo Avenue, Abuja, Nigeria</li>
+          <li><b><i class="bi bi-telephone"></i> Phone:</b> +2348123456789</li>
+          <li><b><i class="bi bi-envelope"></i> Email:</b> <a href="mailto:chizdaniel27@gmail.com" class="text-decoration-none">chizdaniel27@gmail.com</a></li>
+        </ul>
+        <h5 class="mt-4 fs-4">Follow Us</h5>
+        <a href="# b" class="btn btn-outline-secondary btn-sm me-2 fs-5">Twitter</a>
+        <a href="#" class="btn btn-outline-secondary btn-sm me-2 fs-5">Facebook</a>
+        <a href="#" class="btn btn-outline-secondary btn-sm fs-5">LinkedIn</a>
+      </div>
+    </div>
     </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
